@@ -59,8 +59,10 @@
     "@adonisjs/shield": "^8.1.1",
     "@adonisjs/static": "^1.1.1",
     "@adonisjs/vite": "^3.0.0",
+    "@faker-js/faker": "^9.2.0",
     "@vinejs/vine": "^2.1.0",
     "edge.js": "^6.2.0",
+    "faker": "^6.6.6",
     "luxon": "^3.5.0",
     "pg": "^8.13.1",
     "reflect-metadata": "^0.2.2"
