@@ -21,8 +21,8 @@ class ProductsService {
     return await Product.query().where('name', name).first()
   }
 
-  public async getProductByCategory(category: string): Promise<Product | null> {
-    return await Product.query().where('category', category).first()
+  public async getProductByCategory(category: string): Promise<Product[] | null> {
+    return await Product.query().where('category', category)
   }
 
   public async productSearch(query: string): Promise<Product[]> {

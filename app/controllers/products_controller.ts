@@ -46,9 +46,9 @@ export default class ProductsController {
     return response.json({ data: product })
   }
 
-  public async getProductByCategory({ response, params }: HttpContext) {
-    const product = await productsService.getProductByCategory(params.category)
-    return response.json({ data: product })
+  public async getProductsByCategory({ response, params }: HttpContext) {
+    const products = await productsService.getProductByCategory(params.category)
+    return response.json({ data: products })
   }
 
   public async search({ response, request }: HttpContext) {
